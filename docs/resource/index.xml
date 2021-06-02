@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostgreSQL 菜雞修煉場 – 資源</title>
+    <link>https://postgresql-for-newbie.kejyun.com/docs/resource/</link>
+    <description>Recent content in 資源 on PostgreSQL 菜雞修煉場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 02 Jun 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://postgresql-for-newbie.kejyun.com/docs/resource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 軟體</title>
+      <link>https://postgresql-for-newbie.kejyun.com/docs/resource/software/</link>
+      <pubDate>Wed, 02 Jun 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://postgresql-for-newbie.kejyun.com/docs/resource/software/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;web&#34;&gt;Web&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://phppgadmin.sourceforge.net/&#34;&gt;phpPgAdmin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;軟體&#34;&gt;軟體&lt;/h2&gt;
+&lt;h3 id=&#34;免費&#34;&gt;免費&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dbeaver.io/&#34;&gt;DBeaver Community | Free Universal Database Tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pgadmin.org/&#34;&gt;pgAdmin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.psequel.com/&#34;&gt;PSequel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sosedoff/pgweb&#34;&gt;pgweb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;付費&#34;&gt;付費&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.navicat.com/cht/products/navicat-for-postgresql&#34;&gt;Navicat for PostgreSQL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

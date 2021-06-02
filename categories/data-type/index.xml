@@ -1,0 +1,243 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostgreSQL 菜雞修煉場 – data type</title>
+    <link>https://postgresql-for-newbie.kejyun.com/categories/data-type/</link>
+    <description>Recent content in data type on PostgreSQL 菜雞修煉場</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 02 Jun 2021 08:50:29 +0800</lastBuildDate>
+    
+	  <atom:link href="https://postgresql-for-newbie.kejyun.com/categories/data-type/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: 資料類型 data type</title>
+      <link>https://postgresql-for-newbie.kejyun.com/docs/datatype/</link>
+      <pubDate>Wed, 02 Jun 2021 08:50:29 +0800</pubDate>
+      
+      <guid>https://postgresql-for-newbie.kejyun.com/docs/datatype/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;資料類型&#34;&gt;資料類型&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Aliases&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;bigint&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;int8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;signed eight-byte integer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;bigserial&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;serial8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;autoincrementing eight-byte integer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;bit [ (n) ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;fixed-length bit string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;bit varying [ (n) ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;varbit&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;variable-length bit string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;bool&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;logical Boolean (true/false)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;box&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;rectangular box on a plane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;bytea&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;binary data (&amp;ldquo;byte array&amp;rdquo;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;character [ (n) ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;char [ (n) ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;fixed-length character string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;character varying [ (n) ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;varchar [ (n) ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;variable-length character string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cidr&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;IPv4 or IPv6 network address&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;circle&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;circle on a plane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;date&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;calendar date (year, month, day)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;double precision&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;float8&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;double precision floating-point number (8 bytes)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;inet&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;IPv4 or IPv6 host address&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;integer&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;int, int4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;signed four-byte integer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;interval [ fields ] [ (p) ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;time span&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;json&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;JSON data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;infinite line on a plane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;lseg&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;line segment on a plane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;macaddr&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;MAC (Media Access Control) address&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;money&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;currency amount&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numeric [ (p, s) ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;decimal [ (p, s) ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;exact numeric of selectable precision&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;path&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;geometric path on a plane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;point&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;geometric point on a plane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;polygon&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;closed geometric path on a plane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;real&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;float4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;single precision floating-point number (4 bytes)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;smallint&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;int2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;signed two-byte integer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;smallserial&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;serial2&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;autoincrementing two-byte integer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;serial&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;serial4&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;autoincrementing four-byte integer&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;text&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;variable-length character string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;time [ (p) ] [ without time zone ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;time of day (no time zone)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;time [ (p) ] with time zone&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;timetz&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;time of day, including time zone&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;timestamp [ (p) ] [ without time zone ]&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;date and time (no time zone)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;timestamp [ (p) ] with time zone&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;timestamptz&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;date and time, including time zone&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tsquery&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;text search query&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tsvector&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;text search document&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;txid_snapshot&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;user-level transaction ID snapshot&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;uuid&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;universally unique identifier&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;xml&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;XML data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.postgresql.org/docs/9.3/static/datatype.html&#34;&gt;PostgreSQL: Documentation: 9.3: Data Types&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
