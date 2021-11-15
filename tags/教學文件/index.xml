@@ -5,7 +5,7 @@
     <description>Recent content in 教學文件 on PostgreSQL 菜雞修煉場</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 02 Jun 2021 08:50:29 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Nov 2021 03:50:29 +0800</lastBuildDate>
     
 	  <atom:link href="https://postgresql-for-newbie.kejyun.com/tags/%E6%95%99%E5%AD%B8%E6%96%87%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,6 +25,151 @@
         
         
         
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Numeric 數字</title>
+      <link>https://postgresql-for-newbie.kejyun.com/docs/datatype/numeric/</link>
+      <pubDate>Wed, 10 Nov 2021 03:50:29 +0800</pubDate>
+      
+      <guid>https://postgresql-for-newbie.kejyun.com/docs/datatype/numeric/</guid>
+      <description>
+        
+        
+        &lt;h2 id=&#34;數字類型&#34;&gt;數字類型&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;類型&lt;/th&gt;
+&lt;th&gt;儲存空間&lt;/th&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;th&gt;資料範圍&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;smallint&lt;/td&gt;
+&lt;td&gt;2 bytes&lt;/td&gt;
+&lt;td&gt;small integer&lt;/td&gt;
+&lt;td&gt;-32768 to +32767&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;integer&lt;/td&gt;
+&lt;td&gt;4 bytes&lt;/td&gt;
+&lt;td&gt;一般整數&lt;/td&gt;
+&lt;td&gt;-2147483648 to +2147483647&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;bigint&lt;/td&gt;
+&lt;td&gt;8 bytes&lt;/td&gt;
+&lt;td&gt;large integer&lt;/td&gt;
+&lt;td&gt;-9223372036854775808 to +9223372036854775807&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;decimal&lt;/td&gt;
+&lt;td&gt;變動&lt;/td&gt;
+&lt;td&gt;使用者指定精度跟位數&lt;/td&gt;
+&lt;td&gt;up to 131072 digits before the decimal point; up to 16383 digits after the decimal point&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numeric&lt;/td&gt;
+&lt;td&gt;變動&lt;/td&gt;
+&lt;td&gt;使用者指定精度跟位數&lt;/td&gt;
+&lt;td&gt;up to 131072 digits before the decimal point; up to 16383 digits after the decimal point&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;real&lt;/td&gt;
+&lt;td&gt;4 bytes&lt;/td&gt;
+&lt;td&gt;variable-precision, inexact&lt;/td&gt;
+&lt;td&gt;6 decimal digits precision&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;double precision&lt;/td&gt;
+&lt;td&gt;8 bytes&lt;/td&gt;
+&lt;td&gt;variable-precision, inexact&lt;/td&gt;
+&lt;td&gt;15 decimal digits precision&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;smallserial&lt;/td&gt;
+&lt;td&gt;2 bytes&lt;/td&gt;
+&lt;td&gt;自動增加 small integer&lt;/td&gt;
+&lt;td&gt;1 to 32767&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;serial&lt;/td&gt;
+&lt;td&gt;4 bytes&lt;/td&gt;
+&lt;td&gt;自動增加 integer&lt;/td&gt;
+&lt;td&gt;1 to 2147483647&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;bigserial&lt;/td&gt;
+&lt;td&gt;8 bytes&lt;/td&gt;
+&lt;td&gt;自動增加 large integer&lt;/td&gt;
+&lt;td&gt;1 to 9223372036854775807&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;numericprecision-scale&#34;&gt;NUMERIC(precision, scale)&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;欄位&lt;/th&gt;
+&lt;th&gt;說明&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Precision&lt;/td&gt;
+&lt;td&gt;精度&lt;/td&gt;
+&lt;td&gt;總數字數量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Scale&lt;/td&gt;
+&lt;td&gt;維度&lt;/td&gt;
+&lt;td&gt;小數點數字數量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;範例&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;定義&lt;/th&gt;
+&lt;th&gt;數字範圍&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;numeric(5, 0)&lt;/td&gt;
+&lt;td&gt;11111&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numeric(5, 1)&lt;/td&gt;
+&lt;td&gt;1111.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numeric(5, 2)&lt;/td&gt;
+&lt;td&gt;111.11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numeric(5, 3)&lt;/td&gt;
+&lt;td&gt;11.111&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;numeric(5, 4)&lt;/td&gt;
+&lt;td&gt;1.1111&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;參考資料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.postgresql.org/docs/10/datatype-numeric.html&#34;&gt;PostgreSQL: Documentation: 10: 8.1. Numeric Types&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.javatpoint.com/postgresql-numeric&#34;&gt;PostgreSQL Numeric - javatpoint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.postgresql.tw/the-sql-language/data-types/numeric-types&#34;&gt;8.1. 數字型別 - PostgreSQL 正體中文使用手冊&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
       </description>
     </item>
     

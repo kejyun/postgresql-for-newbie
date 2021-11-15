@@ -7,6 +7,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/docs/datatype/numeric/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://postgresql-for-newbie.kejyun.com/docs/date-time/function-operator/</loc>
     <lastmod>2021-06-02T08:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -43,12 +48,67 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://postgresql-for-newbie.kejyun.com/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://postgresql-for-newbie.kejyun.com/categories/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/tags/data-type/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/categories/data-type/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/tags/postgresql/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/categories/postgresql/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/tags/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/tags/%E6%95%99%E5%AD%B8%E6%96%87%E4%BB%B6/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/categories/%E6%95%99%E5%AD%B8%E6%96%87%E4%BB%B6/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/tags/%E6%96%B0%E6%89%8B%E6%95%99%E5%AD%B8/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/categories/%E6%96%B0%E6%89%8B%E6%95%99%E5%AD%B8/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/tags/%E8%B3%87%E6%96%99%E9%A1%9E%E5%9E%8B/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://postgresql-for-newbie.kejyun.com/categories/%E8%B3%87%E6%96%99%E9%A1%9E%E5%9E%8B/</loc>
+    <lastmod>2021-11-10T03:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -58,16 +118,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://postgresql-for-newbie.kejyun.com/categories/character-encoding/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/tags/data-type/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/categories/data-type/</loc>
     <lastmod>2021-06-02T08:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -122,47 +172,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/tags/postgresql/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/categories/postgresql/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/tags/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://postgresql-for-newbie.kejyun.com/tags/%E5%AD%97%E5%85%83%E7%B7%A8%E7%A2%BC/</loc>
     <lastmod>2021-06-02T08:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://postgresql-for-newbie.kejyun.com/categories/%E5%AD%97%E5%85%83%E7%B7%A8%E7%A2%BC/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/tags/%E6%95%99%E5%AD%B8%E6%96%87%E4%BB%B6/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/categories/%E6%95%99%E5%AD%B8%E6%96%87%E4%BB%B6/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/tags/%E6%96%B0%E6%89%8B%E6%95%99%E5%AD%B8/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/categories/%E6%96%B0%E6%89%8B%E6%95%99%E5%AD%B8/</loc>
     <lastmod>2021-06-02T08:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -193,16 +208,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://postgresql-for-newbie.kejyun.com/categories/%E7%92%B0%E5%A2%83/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/tags/%E8%B3%87%E6%96%99%E9%A1%9E%E5%9E%8B/</loc>
-    <lastmod>2021-06-02T08:50:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://postgresql-for-newbie.kejyun.com/categories/%E8%B3%87%E6%96%99%E9%A1%9E%E5%9E%8B/</loc>
     <lastmod>2021-06-02T08:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
